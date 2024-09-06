@@ -1,0 +1,14 @@
+<!-- templates/coin_converter/result.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversion Result</title>
+</head>
+<body>
+    <h1>Conversion Result</h1>
+    <p>{{ amount }} {{ base_currency.currency_name }} is equal to {{ converted_amount }} {{ target_currency.currency_name }}</p>
+    <a href="{% url 'convert_currency' %}">Convert Another Amount</a>
+</body>
+</html>

@@ -1,0 +1,175 @@
+[
+
+    {
+        "model": "coin_converter.currency",
+        "pk": 1,
+        "fields": {
+            "currency_code": "USD",
+            "currency_name": "United States Dollar"
+        }
+    },
+    {
+        "model": "coin_converter.currency",
+        "pk": 2,
+        "fields": {
+            "currency_code": "EUR",
+            "currency_name": "Euro"
+        }
+    },
+    {
+        "model": "coin_converter.currency",
+        "pk": 3,
+        "fields": {
+            "currency_code": "JPY",
+            "currency_name": "Japanese Yen"
+        }
+    },
+    {
+        "model": "coin_converter.currency",
+        "pk": 4,
+        "fields": {
+            "currency_code": "GBP",
+            "currency_name": "British Pound Sterling"
+        }
+    },
+    {
+        "model": "coin_converter.currency",
+        "pk": 5,
+        "fields": {
+            "currency_code": "AUD",
+            "currency_name": "Australian Dollar"
+        }
+    },
+    {
+        "model": "coin_converter.currency",
+        "pk": 6,
+        "fields": {
+            "currency_code": "CAD",
+            "currency_name": "Canadian Dollar"
+        }
+    },
+    {
+        "model": "coin_converter.currency",
+        "pk": 7,
+        "fields": {
+            "currency_code": "CHF",
+            "currency_name": "Swiss Franc"
+        }
+    },
+    {
+        "model": "coin_converter.currency",
+        "pk": 8,
+        "fields": {
+            "currency_code": "CNY",
+            "currency_name": "Chinese Yuan"
+        }
+    },
+    {
+        "model": "coin_converter.currency",
+        "pk": 9,
+        "fields": {
+            "currency_code": "SEK",
+            "currency_name": "Swedish Krona"
+        }
+    },
+    {
+        "model": "coin_converter.currency",
+        "pk": 10,
+        "fields": {
+            "currency_code": "NZD",
+            "currency_name": "New Zealand Dollar"
+        }
+    },
+
+
+    {
+        "model": "coin_converter.exchangerate",
+        "pk": 1,
+        "fields": {
+            "base_currency_id": 1,
+            "target_currency_id": 2,
+            "rate": "0.85",
+            "last_updated": "2024-09-02T00:00:00Z"
+        }
+    },
+    {
+        "model": "coin_converter.exchangerate",
+        "pk": 2,
+        "fields": {
+            "base_currency_id": 1,
+            "target_currency_id": 3,
+            "rate": "110.00",
+            "last_updated": "2024-09-02T00:00:00Z"
+        }
+    },
+    {
+        "model": "coin_converter.exchangerate",
+        "pk": 3,
+        "fields": {
+            "base_currency_id": 1,
+            "target_currency_id": 4,
+            "rate": "0.75",
+            "last_updated": "2024-09-02T00:00:00Z"
+        }
+    },
+    {
+        "model": "coin_converter.exchangerate",
+        "pk": 4,
+        "fields": {
+            "base_currency_id": 1,
+            "target_currency_id": 5,
+            "rate": "1.30",
+            "last_updated": "2024-09-02T00:00:00Z"
+        }
+    },
+    {
+        "model": "coin_converter.exchangerate",
+        "pk": 5,
+        "fields": {
+            "base_currency_id": 1,
+            "target_currency_id": 6,
+            "rate": "1.25",
+            "last_updated": "2024-09-02T00:00:00Z"
+        }
+    },
+    {
+        "model": "coin_converter.exchangerate",
+        "pk": 6,
+        "fields": {
+            "base_currency_id": 1,
+            "target_currency_id": 7,
+            "rate": "0.92",
+            "last_updated": "2024-09-02T00:00:00Z"
+        }
+    },
+    {
+        "model": "coin_converter.exchangerate",
+        "pk": 7,
+        "fields": {
+            "base_currency_id": 1,
+            "target_currency_id": 8,
+            "rate": "6.90",
+            "last_updated": "2024-09-02T00:00:00Z"
+        }
+    },
+    {
+        "model": "coin_converter.exchangerate",
+        "pk": 8,
+        "fields": {
+            "base_currency_id": 1,
+            "target_currency_id": 9,
+            "rate": "9.20",
+            "last_updated": "2024-09-02T00:00:00Z"
+        }
+    },
+    {
+        "model": "coin_converter.exchangerate",
+        "pk": 9,
+        "fields": {
+            "base_currency_id": 1,
+            "target_currency_id": 10,
+            "rate": "1.40",
+            "last_updated": "2024-09-02T00:00:00Z"
+        }
+    }
+]
